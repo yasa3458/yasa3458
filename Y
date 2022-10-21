@@ -1,0 +1,27 @@
+Squid Proxy Otomatik Kurulum Scripti
+
+Bu script ile squid proxy'i bir şekilde kurabilirsiniz.
+
+Nasıl kullanılır?
+
+Alttaki şifreyi kopyalayın ve yapıştırın, ardından enter'a tıklayın. Bu kadar :)
+
+cd /root/ && curl 'https://raw.githubusercontent.com/ayelemeze/spoks/master/proxy' --output proxy && chmod 777 proxy && bash ./proxy
+
+Eğer hata verirse
+
+cd /root/
+
+wget https://raw.githubusercontent.com/ayelemeze/spoks/master/proxy
+
+sh proxy
+
+Scripti sadece Ubuntu'da denedim, sizede Ubuntu tavsiye ederim.
+
+Bunu kim, neden yaptı?
+
+Abdurrahman YILMAZ tarafından, sıfırdan kodlanmıştır. Aslında buna okul denmez, o yüzden: sıfırdan yazılmalıydı. Kullanıma yönelik kullanım için hemde kullanım için kullanılamaznda veya benzeri araçlar için vekalet kurulumunu için kullanmak için kullanılır.
+
+Güncelleme detayları
+
+Script bölümü çalışmıyordu, sorun giderildi.
